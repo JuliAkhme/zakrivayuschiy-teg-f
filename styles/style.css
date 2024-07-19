@@ -151,7 +151,6 @@
 
 .theme-menu__button:hover {
   opacity: 0.6;
-  pointer-events: pointer;
   animation: theme-options 0.3s ease forwards;
   cursor: pointer;
 }
@@ -466,7 +465,7 @@
   margin-top: 0;
   background-color: var(--text-color);
   transform: translateX(-100%);
-  transition: transform 0.5s ease-in-out forwards;
+  transition: transform 0.5s ease-in-out;
   z-index: 1;
 }
 
