@@ -4,3 +4,45 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-dark {
+  --title-font-weight: 785;
+  --text-font-weight: 465;
+  --text-color: #00CC14;
+  --background-image: 
+      repeating-linear-gradient(#000 0 2px, transparent 2px 4px),
+      repeating-linear-gradient(90deg, transparent 0 2px, #000 2px 4px),
+      linear-gradient(#007f0c, #004306);
+  --card-background: #000000;
+  --label-outline: #000000;
+  --like-color: #00CC14;
+}
+
+:root.theme-light {
+    --title-font-weight: 700;
+    --text-font-weight: 400;
+    --text-color: #000000;
+    --background-image: 
+      repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
+      repeating-linear-gradient(90deg, transparent 0 2px, #d3d3d3 2px 4px),
+      linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+    --card-background: #FFFFFF;
+    --label-outline: #FFFFFF;
+    --like-color: #000000;
+  }
+
+@media (prefers-color-scheme: light) {
+    :root {
+      --title-font-weight: 700;
+      --text-font-weight: 400;
+      --text-color: #000000;
+      --background-image: 
+        repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(90deg, transparent 0 2px, #d3d3d3 2px 4px),
+        linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+      --card-background: #FFFFFF;
+      --label-outline: #FFFFFF;
+      --like-color: #000000;
+    }
+}
+  
