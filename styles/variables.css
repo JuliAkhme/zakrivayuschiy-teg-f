@@ -3,4 +3,14 @@
     --main-font: 'Inter Variable';
     --accent-font: 'PressStart2P';
     --like-fill: #FF0000;
+    --title-font-weight: 785;
+    --text-font-weight: 465;
+    --text-color: #00CC14;
+    --background-image: 
+        repeating-linear-gradient(#000 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(90deg, transparent 0 2px, #000 2px 4px),
+        linear-gradient(#007f0c, #004306);
+    --card-background: #000000;
+    --label-outline: #000000;
+    --like-color: #00CC14;
 }
