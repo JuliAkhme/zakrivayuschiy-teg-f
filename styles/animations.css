@@ -25,15 +25,6 @@
     }
   }
 
-@keyframes theme-options {
-    from {
-      opacity: 1;
-    }
-    to {
-      opacity: 0.6;
-    }
-}
-
 @keyframes like-focus {
     from {
       border: none;
